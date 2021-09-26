@@ -1,6 +1,8 @@
 :root {
   --heading-font: "Tourney", cursive;
   --default-font: "Yanone Kaffeesatz", sans-serif;
+  --primary-color: #887aa8;
+  --secondary-color: #a191c6;
 }
 
 body {
