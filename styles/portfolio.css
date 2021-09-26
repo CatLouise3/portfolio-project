@@ -37,3 +37,15 @@ h2 {
 #buttons {
   padding: 25px;
 }
+
+#btnBranding {
+  background: #a191c6;
+  color: white;
+  font-family: var(--default-font);
+  font-size: 20px;
+}
+
+#btnBranding: hover {
+  color: black;
+  cursor: pointer;
+}
