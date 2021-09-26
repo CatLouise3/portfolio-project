@@ -1,14 +1,34 @@
+:root {
+  --heading-font: "Tourney", cursive;
+  --default-font: "Yanone Kaffeesatz", sans-serif;
+}
+
 body {
   background: url("../images/drip-background.png");
   background-size: 100%;
+  font-family: var(--default-font);
+  padding: 50px;
 }
 
 h1 {
-  font-family: "Tourney", cursive;
+  font-family: var(--heading-font);
   text-align: center;
 }
 
-p {
-  font-family: "Yanone Kaffeesatz", sans-serif;
+h2 {
   text-align: center;
+  color: #c99cfc;
+}
+
+.intro {
+  font-family: var(--default-font);
+  text-align: center;
+  font-size: 30px;
+  margin: auto;
+  color: #c99cfc;
+}
+
+.name {
+  font-size: 70px;
+  color: white;
 }
