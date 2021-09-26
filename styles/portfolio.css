@@ -5,7 +5,7 @@
   --secondary-color: #a191c6;
 }
 
-html {
+.cursor {
   cursor: url("cursor-image.png"), auto;
 }
 
