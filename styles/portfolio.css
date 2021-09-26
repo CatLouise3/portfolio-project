@@ -33,3 +33,11 @@ h2 {
   font-size: 70px;
   color: white;
 }
+
+#buttons {
+  padding: 30px;
+}
+
+.button-homepage {
+  color: #887aa8;
+}
