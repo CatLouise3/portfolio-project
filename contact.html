@@ -5,37 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/portfolio.css" />
+     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="contact.js">
+    <link rel="stylesheet" href="contact.php">
     <title>Contact Me</title>
   </head>
   <body>
-    <form>
-      <div class="form-group">
-        <label for="exampleInputEmail1">Email address</label>
-        <input
-          type="email"
-          class="form-control"
-          id="exampleInputEmail1"
-          aria-describedby="emailHelp"
-          placeholder="Enter email"
-        />
-      </div>
-      <div class="form-group">
-        <label for="inputMessage">Message</label>
-        <input
-          type="message"
-          class="form-control"
-          id="inputMessage"
-          placeholder="Message"
-        />
-      </div>
-
-      <button
-        type="submit"
-        class="btn btn-primary"
-        action="mailto:catherine.m.codes@gmail.com"
-      >
-        Submit
-      </button>
-    </form>
+   <div class="formSection">
+        <div class="formTitle">
+          Send me a message <span class="heart"><3</span>
+        </div>
+        <div class="error"><br /></div>
+        <form
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          action="mailto:catherine.m.codes@gmail.com"
+        >
+          <label>
+            <p>Your email:</p>
+            <input
+              type="email"
+              name="reply-to"
+              class="emailInput"
+              id="email"
+              autocomplete="off"
+            />
+          </label>
+          <br />
+          <br />
+          <label>
+            <p>Your message:</p>
+            <textarea
+              name="message"
+              id="message"
+              class="messageInput"
+              autocomplete="off"
+            ></textarea>
+          </label>
+          <br />
+          <br />
+          <button type="submit" id="sendBtn" class="sendBtn" >Send</button>
+        </form>
   </body>
 </html>
