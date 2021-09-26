@@ -6,7 +6,7 @@
 }
 
 html {
-  cursor: url("../images/cursor.png");
+  cursor: url("cursor-image.png"), auto;
 }
 
 body {
@@ -26,6 +26,9 @@ h2 {
   color: #887aa8;
 }
 
+a {
+  cursor: url("cursor-image.png");
+}
 .country {
   font-size: 25px;
 }
@@ -55,11 +58,12 @@ h2 {
   line-height: 30px;
   padding: 5px;
   margin-top: -18px;
+  cursor: url("cursor-image.png");
 }
 
 #btnBranding:hover {
   background: #a191c6;
-  cursor: pointer;
+  cursor: url("cursor-image.png");
 }
 
 #footer {
@@ -96,4 +100,8 @@ h2 {
 
 .formSection {
   padding: 50px;
+}
+
+form {
+  cursor: url("cursor-image.png");
 }
