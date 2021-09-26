@@ -10,6 +10,7 @@ body {
   background-size: 100%;
   font-family: var(--default-font);
   padding: 25px;
+  cursor: pointer url("../cursor.png");
 }
 
 h1 {
