@@ -5,8 +5,8 @@
   --secondary-color: #a191c6;
 }
 
-.cursor {
-  cursor: url("cursor-image.png"), auto;
+html {
+  cursor: url(../images/cursor-image.png), auto;
 }
 
 body {
@@ -27,7 +27,7 @@ h2 {
 }
 
 a {
-  cursor: url("cursor-image.png");
+  cursor: url(../images/cursor-image.png);
 }
 .country {
   font-size: 25px;
@@ -58,12 +58,12 @@ a {
   line-height: 30px;
   padding: 5px;
   margin-top: -18px;
-  cursor: url("cursor-image.png");
+  cursor: url(cursor-image.png);
 }
 
 #btnBranding:hover {
   background: #a191c6;
-  cursor: url("cursor-image.png");
+  cursor: url(../images/cursor-image.png);
 }
 
 #footer {
@@ -96,6 +96,7 @@ a {
 #navLink {
   color: var(--primary-color);
   font-size: 20px;
+  cursor: url(../images/cursor-image.png);
 }
 
 .formSection {
@@ -103,5 +104,5 @@ a {
 }
 
 form {
-  cursor: url("cursor-image.png");
+  cursor: url(../images/cursor-image.png);
 }
