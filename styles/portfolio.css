@@ -71,3 +71,9 @@ h2 {
   text-decoration: none;
   font-size: 20px;
 }
+
+#about {
+  color: white;
+  font-size: 80px;
+  padding: 30px;
+}
