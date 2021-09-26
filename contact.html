@@ -4,27 +4,38 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/portfolio.css" />
     <title>Contact Me</title>
-    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="contact-title">
-      <h1>Come say hello :)</h1>
-    </div>
-    <div class="contact-form">
-      <form id="contact-form" method="post" action="contact-form-handler.php">
-        <input name="name" type="text" class="form-control" placeholder="Your
-        Name" required>
-         <br>
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input
+          type="email"
+          class="form-control"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp"
+          placeholder="Enter email"
+        />
+      </div>
+      <div class="form-group">
+        <label for="inputMessage">Message</label>
+        <input
+          type="message"
+          class="form-control"
+          id="inputMessage"
+          placeholder="Message"
+        />
+      </div>
 
-        <form id="contact-form" method="post" action="">
-        <input name="email" type="text" class="form-control" placeholder="Your
-        Email" required>
-      <br>
-      <textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea>
-      <br>
-      <input type="submit" class="form-control submit" value="Send Message">
-      </form>
-    </div>
+      <button
+        type="submit"
+        class="btn btn-primary"
+        action="mailto:catherine.m.codes@gmail.com"
+      >
+        Submit
+      </button>
+    </form>
   </body>
 </html>
