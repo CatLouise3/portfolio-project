@@ -1,0 +1,14 @@
+body {
+  background: url("../images/drip-background.png");
+  background-size: 100%;
+}
+
+h1 {
+  font-family: "Tourney", cursive;
+  text-align: center;
+}
+
+p {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  text-align: center;
+}
