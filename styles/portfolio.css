@@ -7,7 +7,7 @@ body {
   background: url("../images/drip-background.png");
   background-size: 100%;
   font-family: var(--default-font);
-  padding: 50px;
+  padding: 25px;
 }
 
 h1 {
@@ -17,7 +17,7 @@ h1 {
 
 h2 {
   text-align: center;
-  color: #c99cfc;
+  color: #887aa8;
 }
 
 .intro {
@@ -25,7 +25,8 @@ h2 {
   text-align: center;
   font-size: 30px;
   margin: auto;
-  color: #c99cfc;
+  color: #887aa8;
+  font-weight: bold;
 }
 
 .name {
