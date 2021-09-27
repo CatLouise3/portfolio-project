@@ -63,14 +63,42 @@
         </div>
       </div>
     </nav>
-   <form target="_blank" enctype="text/plain" method="POST" target="_blank" >
-    <h1 class="title">Let's Chat :)</h1>
-    <div class="field"><label class="label" for="subject" >Subject</label>
-        <input name="subject" id="email" type="text" class="input" value=" Email Subject"></div>
-    <div class="field"><label class="label" for="body">Your Message</label>
-        <textarea class="textarea" name="body" id="message">Type Message Here</textarea></div>
-    <div><input type="submit" value="Create Email" class="button is-primary"></div>
-</form>
+    <div class="formSection">
+        <div class="formTitle">
+          Send me a message :) 
+        </div>
+        <div class="error"><br /></div>
+        <form
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          
+        >
+          <label>
+            <p>Your email:</p>
+            <input
+              type="email"
+              name="reply-to"
+              class="emailInput"
+              id="email"
+              autocomplete="off"
+            />
+          </label>
+          <br />
+          <br />
+          <label>
+            <p>Your message:</p>
+            <textarea
+              name="message"
+              id="message"
+              class="messageInput"
+              autocomplete="off"
+            ></textarea>
+          </label>
+          <br />
+          <br />
+          <button type="submit" id="sendBtn" class="sendBtn" >Send</button>
+        </form>
          
          
         <footer class="fixed-bottom" id="footer">
