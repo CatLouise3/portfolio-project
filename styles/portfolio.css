@@ -12,7 +12,7 @@ html {
 body {
   background: url("../images/drip-background.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover, auto;
   font-family: var(--default-font);
   padding: 25px;
 }
