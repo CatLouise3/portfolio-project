@@ -20,5 +20,5 @@ function Validate(e) {
 
   window.location.href = `mailto:catherine.m.codes@gmail.com?from=${
     document.querySelector("#email").value
-  }&subject=Contact me&body=${document.querySelector("#message").value}`;
+  }&subject=New Contact&body=${document.querySelector("#message").value}`;
 }
