@@ -1,9 +1,10 @@
-let sendBtn = document.querySelector(".sendBtn");
+let form = document.querySelector("form");
 let errorNote = document.querySelector(".error");
 
-sendBtn.addEventListener("click", Validate);
+form.addEventListener("submit", Validate);
 
 function Validate(e) {
+  e.preventDefault();
   var inputs = [
     document.getElementById("email"),
     document.getElementById("message"),
@@ -11,9 +12,13 @@ function Validate(e) {
 
   inputs.map((input) => {
     if (input.value == "") {
-      errorNote.innerHTML = "Please complete all fields!";
       e.preventDefault();
+      errorNote.innerHTML = "Please complete all fields!";
       return false;
     }
   });
+
+  window.location.href = `mailto:catherine.m.codes@gmail.com?from=${
+    document.querySelector("#email").value
+  }&subject=Contact me&body=${document.querySelector("#message").value}`;
 }
