@@ -119,8 +119,7 @@ form {
 
 @media (max-width: 1025px) {
   #btnBranding {
-    background: var(--secondary-color);
-    color: white;
+    color: var(--secondary-color);
     font-family: var(--default-font);
     font-size: 20px;
     line-height: 15px;
