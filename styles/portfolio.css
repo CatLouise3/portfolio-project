@@ -13,6 +13,7 @@ body {
   background: url("../images/drip-background.png");
   background-repeat: no-repeat;
   background-size: cover, auto;
+  l
   font-family: var(--default-font);
   padding: 25px;
 }
@@ -50,6 +51,7 @@ a {
 #buttons {
   padding: 25px;
 }
+
 
 #btnBranding {
   background: transparent;
@@ -113,11 +115,10 @@ form {
 @media (max-width: 650px) {
   .name {
     font-size: 40px;
-    color: var(--primary-color);
-  }
+    color: black;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 900px) {
   #btnBranding {
     color: var(--secondary-color);
     font-family: var(--default-font);
