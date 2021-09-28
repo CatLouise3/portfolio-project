@@ -107,3 +107,25 @@ a {
 form {
   cursor: url(../images/cursor-image.png);
 }
+
+/*media queries*/
+
+@media (max-width: 650px) {
+  .name {
+    font-size: 40px;
+    color: var(--primary-color);
+  }
+}
+
+@media (max-width: 1025px) {
+  #btnBranding {
+    background: var(--secondary-color);
+    color: white;
+    font-family: var(--default-font);
+    font-size: 20px;
+    line-height: 15px;
+    padding: 5px;
+    margin-top: -18px;
+    cursor: url(cursor-image.png);
+  }
+}
