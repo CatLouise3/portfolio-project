@@ -109,6 +109,23 @@ form {
   cursor: url(../images/cursor-image.png);
 }
 
+/*About Me Page*/
+
+#aboutMe {
+  color: var(--primary-color);
+  font-size: 40px;
+  font-family: var(--heading-font);
+  text-align: center;
+}
+
+#aboutSection {
+  background: #d2bed3;
+  max-width: 1000px;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+
 /*media queries*/
 
 @media (max-width: 650px) {
