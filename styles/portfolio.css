@@ -112,7 +112,7 @@ form {
 /*About Me Page*/
 
 #aboutMe {
-  color: var(--primary-color);
+  color: black;
   font-size: 40px;
   font-family: var(--heading-font);
   text-align: center;
