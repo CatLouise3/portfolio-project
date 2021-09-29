@@ -169,6 +169,14 @@ form {
     padding: 5px;
     margin-top: 15px;
   }
+
+  .me-image {
+    max-width: 200px;
+  }
+
+  #sheCodes {
+    max-width: 250px;
+  }
 }
 
 @media (max-width: 1125px) {
@@ -180,5 +188,11 @@ form {
     padding: 5px;
     margin-top: -18px;
     cursor: url(cursor-image.png);
+  }
+}
+
+@media (max-width: 280px) {
+  #sheCodes {
+    max-width: 200px;
   }
 }
