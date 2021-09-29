@@ -122,10 +122,27 @@ form {
   background: #d2bed3;
   max-width: 1000px;
   padding: 20px;
+  margin: 0 auto;
   border-radius: 15px;
-  text-align: center;
+  text-align: left;
+  border: 1px solid white;
+  color: #9b899e;
+  font-family: var(--default-font);
+  font-size: 20px;
+  font-weight: bold;
 }
 
+.me-image {
+  max-width: 300px;
+  border-radius: 15px;
+  border: 2px solid #b0e5f5;
+  display: block;
+  margin: 0 auto;
+}
+
+.certificates {
+  background: #b0e5f5;
+}
 /*media queries*/
 
 @media (max-width: 650px) {
