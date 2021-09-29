@@ -89,7 +89,7 @@ a {
 }
 
 #nav {
-  color: white;
+  color: black;
   font-size: 30px;
   font-family: var(--heading-font);
   line-height: 40px;
@@ -125,7 +125,7 @@ form {
   margin: 0 auto;
   border-radius: 15px;
   text-align: left;
-  border: 1px solid white;
+  border: 2px solid white;
   color: #9b899e;
   font-family: var(--default-font);
   font-size: 20px;
@@ -142,6 +142,18 @@ form {
 
 .certificates {
   background: #b0e5f5;
+  text-align: center;
+  font-family: var(--heading-font);
+  border-radius: 15px;
+  border: 2px solid #9b899e;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+#sheCodes {
+  max-width: 300px;
+  margin: 0 auto;
 }
 /*media queries*/
 
