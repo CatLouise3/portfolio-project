@@ -125,7 +125,7 @@ form {
   margin: 0 auto;
   border-radius: 15px;
   text-align: left;
-  border: 2px solid white;
+  border: 2px solid #b0e5f5;
   color: #9b899e;
   font-family: var(--default-font);
   font-size: 20px;
@@ -135,7 +135,7 @@ form {
 .me-image {
   max-width: 300px;
   border-radius: 15px;
-  border: 2px solid #b0e5f5;
+  border: 2px solid white;
   display: block;
   margin: 0 auto;
 }
