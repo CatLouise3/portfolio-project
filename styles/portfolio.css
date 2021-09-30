@@ -226,7 +226,10 @@ p {
   }
 
   #projectImages {
-    display: none;
+    max-width: 300px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
   }
 
   .project-description {
@@ -234,6 +237,11 @@ p {
     margin: 0 auto;
     max-width: 300px;
     height: 300px;
+  }
+
+  #projectDescription {
+    display: block;
+    margin: 0 auto;
   }
 }
 
@@ -247,10 +255,50 @@ p {
     margin-top: -18px;
     cursor: url(cursor-image.png);
   }
+
+  #projectImages {
+    max-width: 300px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .project-description {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    height: 300px;
+  }
+
+  #projectDescription {
+    display: block;
+    margin: 0 auto;
+  }
 }
 
-@media (max-width: 280px) {
+@media (max-width: 300px) {
   #sheCodes {
     max-width: 200px;
+  }
+
+  #projectImages {
+    max-width: 200px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .project-description {
+    max-width: 200px;
+    height: 250px;
+    margin-bottom: 50px;
+  }
+
+  .project-link {
+    max-width: 100px;
+  }
+
+  #projectDescription {
+    display: none;
   }
 }
