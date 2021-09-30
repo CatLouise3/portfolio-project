@@ -224,6 +224,17 @@ p {
   #sheCodes {
     max-width: 250px;
   }
+
+  #projectImages {
+    display: none;
+  }
+
+  .project-description {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    height: 300px;
+  }
 }
 
 @media (max-width: 1125px) {
