@@ -90,7 +90,7 @@ a {
 }
 
 #nav {
-  color: black;
+  color: #5e4096;
   font-size: 30px;
   font-family: var(--heading-font);
   line-height: 40px;
@@ -213,7 +213,7 @@ p {
 
   #header {
     font-size: 38px;
-    color: var(--primary-color);
+
     padding: 5px;
     margin-top: 15px;
   }
