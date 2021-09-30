@@ -178,7 +178,8 @@ form {
   max-width: 140px;
 }
 
-#linkSpacing {
+p {
+  text-align: center;
 }
 /*media queries*/
 
