@@ -177,8 +177,13 @@ form {
   border-radius: 10px;
   color: white;
   max-width: 140px;
+  border: 2px solid black;
 }
 
+.project-link:hover {
+  color: #5e4096;
+  background: #b0e5f5;
+}
 p {
   text-align: center;
 }
