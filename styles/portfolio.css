@@ -13,7 +13,7 @@ body {
   background: url("../images/drip-background.png");
   background-repeat: no-repeat;
   background-size: cover, auto;
-
+  background-attachment: fixed;
   font-family: var(--default-font);
   padding: 25px;
 }
@@ -167,7 +167,18 @@ form {
 }
 
 .project-link {
-  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 10px 6px;
+  text-decoration: none;
+  background: var(--secondary-color);
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  max-width: 140px;
+}
+
+#linkSpacing {
 }
 /*media queries*/
 
