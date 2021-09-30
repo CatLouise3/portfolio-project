@@ -19,10 +19,8 @@ body {
 }
 
 h1 {
-  font-family: var(--heading-font);
   text-align: center;
 }
-
 h2 {
   text-align: center;
   color: #887aa8;
@@ -83,9 +81,12 @@ a {
 }
 
 #header {
-  color: white;
+  color: #5e4096;
   font-size: 80px;
+  display: block;
+  margin: 0 auto;
   padding-bottom: 20px;
+  font-family: var(--heading-font);
 }
 
 #nav {
