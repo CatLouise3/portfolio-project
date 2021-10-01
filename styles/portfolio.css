@@ -216,8 +216,13 @@ p {
   font-family: var(--default-font);
   font-size: 40px;
   color: white;
-  margin-top: -40px;
+  background: var(--primary-color);
+  border-radius: 5px;
+  margin-top: -20px;
   text-align: center;
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
 }
 .emailTitle,
 .messageTitle {
@@ -229,11 +234,11 @@ p {
 .formSection {
   display: block;
   margin: 20px auto;
-  background: #b0e5f5;
+  background: transparent;
   max-width: 600px;
-  height: 500px;
   border-radius: 10px;
   border: 2px solid black;
+  padding: 40px 30px;
 }
 
 .formSection .emailInput,
@@ -267,18 +272,20 @@ p {
 }
 
 .contactInfoSection {
-  max-width: 1000px;
-  padding: 30px;
-  background: var(--secondary-color);
+  padding: 20px 5px;
+  background: #f9d5b7;
   border: 2px solid black;
   border-radius: 30px;
   margin-top: 50px;
+  margin-bottom: 80px;
+  max-width: 1000px;
 }
 
 i {
   color: white;
   font-size: 100px;
   display: block;
+  margin-left: 20px;
 }
 
 .mediaName {
@@ -289,12 +296,21 @@ i {
 }
 
 #contactLinks {
-  color: blue;
+  color: #5e4096;
   display: block;
   text-align: center;
   font-size: 20px;
   padding: 30px;
   margin-top: -40px;
+  margin-right: 30px;
+  text-decoration: none;
+}
+
+#contactLinks:hover {
+  color: #188bad;
+}
+.email {
+  margin-left: -40px;
 }
 
 /*media queries*/
