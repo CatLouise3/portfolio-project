@@ -375,7 +375,7 @@ i {
 
   #navLink {
     color: #96add8;
-    
+    font-weight: bold;
 }
 
 @media (max-width: 1125px) {
