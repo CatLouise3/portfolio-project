@@ -19,6 +19,7 @@ body {
 }
 
 h1 {
+  font-family: var(--heading-font);
   text-align: center;
 }
 h2 {
@@ -208,6 +209,61 @@ p {
   border: 2px solid var(--secondary-color);
   margin-left: 130px;
 }
+
+/*Contact Page*/
+
+.formTitle {
+  font-family: var(--default-font);
+  font-size: 40px;
+  color: white;
+  margin-top: -40px;
+  text-align: center;
+}
+.emailTitle,
+.messageTitle {
+  font-family: var(--default-font);
+  font-size: 20px;
+  text-align: left;
+}
+
+.formSection {
+  display: block;
+  margin: 0 auto;
+  background: #b0e5f5;
+  max-width: 600px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.formSection .emailInput,
+.formSection .messageInput {
+  font-family: var(--default-font);
+  font-size: 15px;
+  color: black;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 2px 2px 20px rgb(0, 0, 0, 0.1);
+}
+
+.formSection .emailInput {
+  width: 200px;
+}
+.formSection .messageInput {
+  height: 100px;
+  width: 400px;
+}
+
+#sendBtn {
+  background: #f9d5b7;
+  color: #5e4096;
+  font-weight: bold;
+  padding: 10px 15px;
+  font-size: 20px;
+  border-radius: 5px;
+  max-width: 100px;
+}
 /*media queries*/
 
 @media (max-width: 650px) {
@@ -248,6 +304,17 @@ p {
   #projectDescription {
     display: block;
     margin: 0 auto;
+  }
+
+  .formSection {
+    max-width: 320px;
+  }
+
+  .formSection .messageInput {
+    max-width: 240px;
+  }
+  .formTitle {
+    font-size: 30px;
   }
 }
 
@@ -306,5 +373,13 @@ p {
 
   #projectDescription {
     display: none;
+  }
+
+  .formSection {
+    max-width: 275px;
+  }
+
+  .formSection .messageInput {
+    max-width: 200px;
   }
 }
