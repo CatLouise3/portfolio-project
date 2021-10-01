@@ -376,7 +376,7 @@ i {
 
 @media (max-width: 1125px) {
   #btnBranding {
-    color: var(--secondary-color);
+    color: #5e4096;
     font-family: var(--default-font);
     font-size: 20px;
     line-height: 15px;
